@@ -1,0 +1,7 @@
+1,Minuman
+2,Makanan
+3,Obat-obatan
+4,Snack
+5,Peralatan Rumah Tangga
+6,Frozen Food
+7,Alat Tukang

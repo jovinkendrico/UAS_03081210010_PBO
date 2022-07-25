@@ -1,0 +1,8 @@
+1,Mylanta Cair,14000,185,Obat-obatan
+2,Chitato,3000,99,Makanan
+3,Pocari,5000,200,Minuman
+4,Sapu,40000,30,Peralatan Rumah Tangga
+5,Teh Pucuk Harum,3500,300,Minuman
+6,Tissue,5000,30,Peralatan Rumah Tangga
+7,Pel,50000,10,Peralatan Rumah Tangga
+8,Sanitizier,12000,50,Obat-obatan
