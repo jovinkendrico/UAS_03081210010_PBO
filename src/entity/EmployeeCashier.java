@@ -239,7 +239,7 @@ public class EmployeeCashier extends Employee {
         while(tambahItem){
             tambahDataSale(scanner, invoice, dataSale);
             scanner.nextLine();
-            System.out.print("Tambah Item lain ? (y/n)");
+            System.out.print("Tambah Item lain ? (y/n) = ");
             String pilihan = scanner.nextLine();
             if(pilihan.equalsIgnoreCase("n")){
                 break;
@@ -395,6 +395,8 @@ public class EmployeeCashier extends Employee {
                 if(!iFound) throw new Exception("Masukkan item id yang benar");
                 System.out.print("Jumlah dibeli = ");
                 amount = scanner.nextInt();
+                System.out.println("Nama Item = " + item.getItemName());
+                System.out.println("Harga Item = " + item.getPrice());
                 dataSale.add(new Sale(invoice, item, amount));
                 updateStockItem(item.getItemId(), amount);
                 break;
